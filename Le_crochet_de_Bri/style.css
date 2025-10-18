@@ -1,0 +1,68 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background: linear-gradient(135deg, #ffe4e1, #ffc0cb, #ffb6c1);
+    animation: changeBg 10s infinite;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+@keyframes changeBg {
+    0%   { background: #ffe4e1; }
+    10%  { background: #ffc0cb; }
+    20%  { background: #ffb6c1; }
+    30%  { background: #ff9bb3; }
+    40%  { background: #ff84aa; }
+    50%  { background: #ff6da1; }
+    60%  { background: #ff78a8; }
+    70%  { background: #ff82ae; }
+    80%  { background: #ff8cbb; }
+    90%  { background: #ff97c1; }
+    100% { background: #ffa1c7; }
+}
+
+header {
+    padding: 50px;
+    background: linear-gradient(180deg, #ffb6c1, #ff69b4);
+}
+
+main {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-large {
+    font-weight: 600;
+    border-radius: 50px;
+    margin-bottom: 30px;
+}
+
+.btn-large:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    background: linear-gradient(45deg, #ff4081, #f06292);
+    box-shadow: 0 6px 15px rgba(208, 27, 96, 0.5);
+}
+
+.card-image img {
+    height: 300px;
+    object-fit: cover;
+    box-shadow: 0 6px 15px rgba(208, 27, 96, 0.5);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+
+#creations .btn-large {
+    margin-top: 5px;
+}
+
+.page-footer {
+    font-size: 1.3rem;
+    background: linear-gradient(180deg, #e789c0, #ff69b4, #f855ac);
+    padding: 20px 0;
+    text-align: center;
+}
