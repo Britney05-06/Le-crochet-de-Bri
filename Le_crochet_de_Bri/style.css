@@ -54,10 +54,15 @@ main {
     box-shadow: 0 6px 15px rgba(208, 27, 96, 0.5);
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card.hoverable:hover .card-image img {
+    transform: scale(1.05);
 }
 
 #creations .btn-large {
-    margin-top: 5px;
+    margin-top: 20px;
 }
 
 .page-footer {
