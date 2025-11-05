@@ -48,6 +48,16 @@ main {
     box-shadow: 0 6px 15px rgba(208, 27, 96, 0.5);
 }
 
+.contact-box {
+  background-color: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(6px);
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
 .card-image img {
     height: 300px;
     object-fit: cover;
